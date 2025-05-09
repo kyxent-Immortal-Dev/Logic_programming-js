@@ -1,0 +1,29 @@
+.container-app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+.container-pokemon {
+  display: grid;
+  background-color: rgb(61, 151, 151);
+  border-radius: 2rem;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+
+.container-pokemon p {
+  font-size: 2rem;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.close-cart {
+  display: none;
+}
+
+.open-cart {
+  display: grid;
+}
